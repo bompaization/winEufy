@@ -1,3 +1,5 @@
+<p align="center"><img src="logo.png" width="128" alt="winEufy logo"></p>
+
 # winEufy
 
 **Watch your Eufy Security cameras live on Windows.**
@@ -8,7 +10,7 @@ winEufy is a small Windows app that signs in with your Eufy account and shows al
 
 ## Download
 
-Get the latest **winEufy x.y.z.exe** from the Releases page.
+Get the latest **winEufy x.y.z.exe** from the [Releases](../../releases/latest) page.
 
 It is a portable app: there is nothing to install. Put the `.exe` anywhere you like (for example your desktop) and double-click it.
 
@@ -32,6 +34,12 @@ winEufy is not code-signed, so Windows SmartScreen may show *"Windows protected 
 - **Remembers your login** (optional) and your layout
 - **Update check**: winEufy tells you when a new version is available
 
+## Getting started
+
+1. Start winEufy and sign in with your Eufy account email, password and country code (for example `BE`).
+2. The first time, Eufy sends you a verification code by email or SMS. Enter it in winEufy. After that, winEufy remembers the session.
+3. Click a camera tile to start or stop its live view, or use **Start all**.
+
 ## Privacy
 
 - winEufy talks directly to Eufy's own servers and to your HomeBase or cameras, just like the Eufy app. There is no other server in between.
@@ -41,7 +49,7 @@ winEufy is not code-signed, so Windows SmartScreen may show *"Windows protected 
 ## Good to know
 
 - **Battery cameras** can take a few seconds to wake up before the picture appears. If a camera does not respond, winEufy retries automatically.
-- **H.265 cameras** play directly on most PCs. On a PC without H.265 support, winEufy converts the video, which needs [[FFmpeg](https://ffmpeg.org/)](https://ffmpeg.org) installed.
+- **H.265 cameras** play directly on most PCs. On a PC without H.265 support, winEufy converts the video, which needs [FFmpeg](https://ffmpeg.org) installed (`winget install Gyan.FFmpeg`).
 - **Live-view quality** is a setting on the camera itself, so a change made in winEufy may also show up in the Eufy app.
 - Live view only, for now: no recordings, events or two-way audio.
 
